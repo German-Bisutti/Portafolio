@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./views/Home/Home";
 import About from "./views/About/About";
 import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/Footer.jsx";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import {
   BrowserRouter as Router,
@@ -13,6 +13,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import "./App.css";
+import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
