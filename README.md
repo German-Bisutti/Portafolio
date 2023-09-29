@@ -1,6 +1,6 @@
 # Mi Portfolio 💼
 
-## ¡Bienvenido a mi Portafolio Personal! 🥳 
+## ¡Bienvenido a mi Portfolio Personal! 🥳 
 
 Se trata de un escaparate virtual de mi mundo de desarrollo y diseño. Aquí encontrarás una colección de proyectos que reflejan mis habilidades, conocimientos y pasión por la creación digital.
 
