@@ -1,8 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Techstack from "./Techstack";
-import Aboutcard from "./AboutCart";
-import Calendly from "../../components/Calendly/Calendly";
+import Aboutcard from "./AboutCart/AboutCart";
 import laptopImg from "../../assets/profile-pic2.png";
 
 function About() {
