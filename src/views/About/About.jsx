@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCart";
-import laptopImg from "../../assets/profile-pic.png";
+import Calendly from "../../components/Calendly/Calendly";
+import laptopImg from "../../assets/profile-pic2.png";
 
 function About() {
   return (
@@ -18,7 +19,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I am</strong>
+              Quien <strong className="purple">Soy ?</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -33,7 +34,6 @@ function About() {
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
-
         <Techstack />
       </Container>
     </Container>
