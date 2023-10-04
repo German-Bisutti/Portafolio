@@ -7,7 +7,9 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineMail,
 } from "react-icons/ai";
+import { BsFillPeopleFill } from "react-icons/bs";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -70,6 +72,27 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+                className="nav-link-hover"
+              >
+                <AiOutlineMail style={{ marginBottom: "2px" }} /> Contactame
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/interview"
+                onClick={() => updateExpanded(false)}
+                className="nav-link-hover"
+              >
+                <BsFillPeopleFill style={{ marginBottom: "2px" }} /> Agenda un
+                Entrevista
               </Nav.Link>
             </Nav.Item>
           </Nav>

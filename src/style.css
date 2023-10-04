@@ -65,10 +65,10 @@ html {
   /* Navbar Section  */
   /* --------- */
   .sticky {
-    background-color: #000000a9 ;
+    background-color: #183e7094 ;
     transition: all 0.3s ease-out 0s ;
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.171) ;
-    backdrop-filter: blur(15px) ;
+    backdrop-filter: blur(15px);
   }
   
   .navbar {
@@ -84,7 +84,7 @@ html {
     border-color: transparent ;
   }
   
-  .navbar-togg{
+  .navbar-toggler span{
     display: block;
     background-color: #ffffff ;
     height: 4px ;
@@ -619,4 +619,3 @@ html {
   .fork-btn-inner::after {
     display: none ;
   }
-  

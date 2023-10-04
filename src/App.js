@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Preload/Preload";
-import Navbar from "./components/Navbar/Navbar";
 import Home from "./views/Home/Home";
 import About from "./views/About/About";
 import Projects from "./views/Projects/Projects";
+import Contact from "./views/Contact/Contact";
+import Interview from "./views/Interview/Interview";
 import Footer from "./components/Footer/Footer.jsx";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import Navbar from "./components/Navbar/Navbar";
 import {
   BrowserRouter as Router,
   Route,
@@ -37,6 +39,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/interview" element={<Interview />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

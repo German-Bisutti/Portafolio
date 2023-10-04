@@ -17,25 +17,7 @@ function Projects() {
             <ProjectCard
               imgPath={indumentaria}
               title="E-commers-Indumentaria"
-              description={
-                <div>
-                  <p>
-                    Espacio Flipante es un emocionante e-commerce de
-                    indumentaria. Entre sus características destacadas se
-                    encuentran su carrito de compras, un historial de compras,
-                    una pasarela de pago, capacidad de guardar favoritos,
-                    filtros, entre otras cosas.
-                  </p>
-                  <p>
-                    El proyecto utiliza tecnologías como Firebase para la
-                    verificación y el almacenamiento, una Postgres para el
-                    seguimiento de datos de órdenes y productos, JavaScript y
-                    Redux para la lógica de la aplicación, React para la
-                    interfaz de usuario, Express para la gestión de servidores y
-                    rutas, y HTML y CSS para el diseño y la maquetación web. 🚀
-                  </p>
-                </div>
-              }
+              description="Espacio Flipante es un emocionante e-commerce de indumentaria.El proyecto utiliza tecnologías como Firebase para la verificación y el almacenamiento, una Postgres para el seguimiento de datos de órdenes y productos, JavaScript y Redux para la lógica de la aplicación, React para la interfaz de usuario, Express para la gestión de servidores y rutas, y HTML y CSS para el diseño y la maquetación web. 🚀"
               ghLink="https://github.com/German-Bisutti/E-commers-Indumentaria"
             />
           </Col>

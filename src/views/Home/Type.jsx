@@ -9,6 +9,7 @@ function Type() {
           "Full Stack Developer ",
           "Scrum metodologie ",
           "Data Bases",
+          "Estudiante Universitario",
           "Servers y Backend",
           "React Redux",
           "Amante del mate 🧉",

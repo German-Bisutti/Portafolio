@@ -16,7 +16,7 @@ const Calendly = () => {
     <div
       className="calendly-inline-widget"
       data-url="https://calendly.com/germanbisutti?hide_landing_page_details=1&hide_gdpr_banner=1&primary_color=183e70"
-      style={{ minWidth: 320, height: 400 }}
+      style={{ minWidth: 620, height: 700 }}
     />
   );
 };
