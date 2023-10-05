@@ -81,7 +81,7 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
                 className="nav-link-hover"
               >
-                <AiOutlineMail style={{ marginBottom: "2px" }} /> Contactame
+                <AiOutlineMail style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -92,7 +92,7 @@ function NavBar() {
                 className="nav-link-hover"
               >
                 <BsFillPeopleFill style={{ marginBottom: "2px" }} /> Agenda un
-                Entrevista
+                Interview
               </Nav.Link>
             </Nav.Item>
           </Nav>
