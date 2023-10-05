@@ -91,7 +91,7 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
                 className="nav-link-hover"
               >
-                <BsFillPeopleFill style={{ marginBottom: "2px" }} /> Agenda un
+                <BsFillPeopleFill style={{ marginBottom: "2px" }} />
                 Interview
               </Nav.Link>
             </Nav.Item>
