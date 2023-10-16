@@ -26,8 +26,8 @@ function Projects() {
             <ProjectCard
               imgPath={games}
               title="Videogames Api"
-              description="videogames api PI"
-              ghLink=""
+              description="Se trata de una api de videogames a la cual se le pueden realizar peticiones y trabaja con una base de datos en Postrges SQL y esto permite que se puedan crear nuevos juegos"
+              ghLink="https://github.com/German-Bisutti/Videogames-Api"
             />
           </Col>
 
